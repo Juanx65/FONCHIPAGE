@@ -49,8 +49,7 @@ jobs:
       - name: Build Ionic React
         run: npm run build               # produce la carpeta `build` según CRA
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+      # Deployment job
+      - name: github-pages
+        id: deployment
+        uses: actions/deploy-pages@v4
