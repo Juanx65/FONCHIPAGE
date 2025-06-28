@@ -1,5 +1,10 @@
 name: CI/CD Ionic React
 
+permissions:
+  contents: write    # para push a gh-pages
+  pages: write       # para publicar en GitHub Pages
+  id-token: write    # requerido por las Actions de Pages :contentReference[oaicite:0]{index=0}
+
 # Dispara en pushes a main, PRs y ad-hoc desde la UI
 on:
   push:
