@@ -38,4 +38,3 @@ cypress.config.ts
 cypress/
 eslint.config.js
 ionic.config.json
-package-lock.json
