@@ -29,3 +29,13 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+
+.vscode
+.browserslistrc
+capacitor.config.ts
+cypress.config.ts
+cypress/
+eslint.config.js
+ionic.config.json
+package-lock.json
